@@ -19,10 +19,15 @@ Download the latest [.vsix](https://github.com/kevinscottuk/autocad-dotnet-plugi
 
 * Close Visual Studio if it is running.
 * Run the downloaded `.vsix` installer and select the Visual Studio product that the extension should be installed to.
+  
 ![VSIX Installer - Initial Prompt](images/vsix_install_01.png)
+
 * When the installation is complete, restart the target application when prompted.
+
 ![VSIX Installer - Installation Complete](images/vsix_install_02.png)
+
 * After installation, the template will be available when creating a new project in Visual Studio.
+
 ![Visual Studio - Create New Project ](images/new_project_01.png)
 
 ## Creating a new AutoCAD plugin project
@@ -30,9 +35,13 @@ Download the latest [.vsix](https://github.com/kevinscottuk/autocad-dotnet-plugi
 * Open Visual Studio.
 * Select Create a new project.
 * Search for the installed AutoCAD plugin template.
+
 ![New Visual Studio Project](images/new_project_02.png)
+
 * Choose the template and create the project.
+
 ![New Visual Studio Project](images/new_project_03.png)
+
 * Restore NuGet packages if prompted.
 * Build the solution.
 
