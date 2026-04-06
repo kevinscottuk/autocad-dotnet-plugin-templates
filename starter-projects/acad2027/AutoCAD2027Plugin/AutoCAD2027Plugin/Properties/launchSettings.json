@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "AutoCAD2027Plugin": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\Autodesk\\AutoCAD 2027\\acad.exe",
+      "commandLineArgs": "/nologo /b \"netload.scr\""
+    }
+  }
+}

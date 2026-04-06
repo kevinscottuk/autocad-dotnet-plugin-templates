@@ -1,0 +1,8 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="AutoCAD2025Plugin/AutoCAD2025Plugin.csproj">
+    <Platform Project="x64" />
+  </Project>
+</Solution>

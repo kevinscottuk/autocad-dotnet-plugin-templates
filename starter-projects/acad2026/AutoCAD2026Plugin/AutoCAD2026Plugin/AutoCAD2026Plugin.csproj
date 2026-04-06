@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<RootNamespace>AutoCAD2026Plugin</RootNamespace>
+		<OutputType>Library</OutputType>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Platforms>x64</Platforms>
+		<UseWindowsForms>true</UseWindowsForms>
+		<AssemblyVersion>0.1.0.1</AssemblyVersion>
+		<FileVersion>0.1.0.1</FileVersion>
+	</PropertyGroup>
+ 
+	<ItemGroup>
+		<PackageReference Include="AutoCAD.NET" Version="25.1.0" />
+	</ItemGroup>
+  
+	<ItemGroup>
+		<None Update="netload.scr">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>
