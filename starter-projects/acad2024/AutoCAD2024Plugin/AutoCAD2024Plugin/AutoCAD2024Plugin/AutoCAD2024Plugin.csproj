@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{43B8AF65-6012-497F-82F3-9E89B9295347}</ProjectGuid>
+    <ProjectGuid>{7CEFCEF6-907A-4519-8976-A9B83679ABC3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AutoCAD2024Plugin</RootNamespace>

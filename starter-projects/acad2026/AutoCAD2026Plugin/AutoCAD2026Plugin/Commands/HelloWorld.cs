@@ -1,4 +1,5 @@
-﻿using Application = Autodesk.AutoCAD.ApplicationServices.Application;
+﻿// Source template repository: https://github.com/kevinscottuk/autocad-dotnet-plugin-templates
+using Application = Autodesk.AutoCAD.ApplicationServices.Application;
 
 namespace AutoCAD2026Plugin.Commands
 {

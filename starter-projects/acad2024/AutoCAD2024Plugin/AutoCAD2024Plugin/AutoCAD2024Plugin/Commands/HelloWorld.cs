@@ -1,6 +1,7 @@
-﻿using Application = Autodesk.AutoCAD.ApplicationServices.Application;
+﻿// Source template repository: https://github.com/kevinscottuk/autocad-dotnet-plugin-templates
+using Application = Autodesk.AutoCAD.ApplicationServices.Application;
 
-namespace AutoCAD2027Plugin.Commands
+namespace AutoCAD2024Plugin.Commands
 {
     internal static class HelloWorld
     {

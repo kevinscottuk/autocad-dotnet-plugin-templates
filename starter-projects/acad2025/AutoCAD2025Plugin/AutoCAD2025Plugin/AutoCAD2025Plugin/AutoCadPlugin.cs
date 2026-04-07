@@ -1,11 +1,12 @@
-﻿using Autodesk.AutoCAD.Runtime;
+﻿// Source template repository: https://github.com/kevinscottuk/autocad-dotnet-plugin-templates
+using Autodesk.AutoCAD.Runtime;
 using Application = Autodesk.AutoCAD.ApplicationServices.Core.Application;
 
 // This attribute specifies the plugin's entry point class.
 // It improves load performance by avoiding type scanning.
-[assembly: ExtensionApplication(typeof(AutoCAD2024Plugin.AutoCadPlugin))]
+[assembly: ExtensionApplication(typeof(AutoCAD2025Plugin.AutoCadPlugin))]
 
-namespace AutoCAD2024Plugin
+namespace AutoCAD2025Plugin
 {
     public class AutoCadPlugin : IExtensionApplication
     {

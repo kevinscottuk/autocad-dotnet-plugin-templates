@@ -1,4 +1,5 @@
-﻿using Autodesk.AutoCAD.Runtime;
+﻿// Source template repository: https://github.com/kevinscottuk/autocad-dotnet-plugin-templates
+using Autodesk.AutoCAD.Runtime;
 using Application = Autodesk.AutoCAD.ApplicationServices.Core.Application;
 
 // This attribute specifies the plugin's entry point class.

@@ -1,10 +1,11 @@
-﻿using AutoCAD2027Plugin.Commands;
+﻿// Source template repository: https://github.com/kevinscottuk/autocad-dotnet-plugin-templates
+using AutoCAD2024Plugin.Commands;
 using Autodesk.AutoCAD.Runtime;
 
 // Registers this class with AutoCAD so its commands can be called with CommandMethod
-[assembly: CommandClass(typeof(AutoCAD2027Plugin.AutoCadCommands))]
+[assembly: CommandClass(typeof(AutoCAD2024Plugin.AutoCadCommands))]
 
-namespace AutoCAD2027Plugin
+namespace AutoCAD2024Plugin
 {
     public class AutoCadCommands
     {
